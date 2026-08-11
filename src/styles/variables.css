@@ -1,0 +1,163 @@
+/* ─── Midnight Indigo Design Tokens ─── */
+
+:root {
+  /* Neutral palette */
+  --indigo-50: #F8FAFC;
+  --indigo-100: #F1F5F9;
+  --indigo-200: #E2E8F0;
+  --indigo-300: #CBD5E1;
+  --indigo-400: #94A3B8;
+  --indigo-500: #64748B;
+  --indigo-600: #475569;
+  --indigo-700: #334155;
+  --indigo-800: #1E293B;
+  --indigo-900: #0F172A;
+  --indigo-950: #080B14;
+
+  /* Semantic colors */
+  --success: #22C55E;
+  --success-light: #DCFCE7;
+  --success-dark: #16A34A;
+
+  --warning: #F59E0B;
+  --warning-light: #FEF3C7;
+  --warning-dark: #D97706;
+
+  --error: #EF4444;
+  --error-light: #FEE2E2;
+  --error-dark: #DC2626;
+
+  --info: #3B82F6;
+  --info-light: #DBEAFE;
+  --info-dark: #2563EB;
+
+  /* Layout */
+  --container-width: 1200px;
+  --radius-card: 16px;
+  --radius-button: 10px;
+  --radius-input: 10px;
+  --radius-sm: 8px;
+  --transition-fast: 200ms ease;
+  --transition-base: 250ms ease;
+  --transition-smooth: 300ms ease;
+  --shadow-sm: 0 1px 3px rgba(15, 18, 21, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 18, 21, 0.08);
+  --shadow-lift: 0 8px 20px rgba(15, 18, 21, 0.1);
+
+  /* Light theme (default) */
+  --background: #F8FAFC;
+  --background-muted: #F1F5F9;
+  --background-subtle: #E2E8F0;
+
+  --surface: #FFFFFF;
+  --surface-hover: #F8FAFC;
+  --surface-active: #EEF2FF;
+
+  --primary: #4F46E5;
+  --primary-hover: #4338CA;
+  --primary-active: #3730A3;
+  --primary-light: #EEF2FF;
+
+  --secondary: #6366F1;
+  --secondary-hover: #4F46E5;
+  --secondary-light: #E0E7FF;
+
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-disabled: #94A3B8;
+
+  --border: #E2E8F0;
+  --border-hover: #CBD5E1;
+  --border-focus: #6366F1;
+
+  --icon: #4F46E5;
+  --icon-muted: #94A3B8;
+
+  --link: #4F46E5;
+  --link-hover: #3730A3;
+
+  --navbar-bg: #FFFFFF;
+  --navbar-text: #0F172A;
+  --navbar-muted: #64748B;
+  --navbar-hover: #4F46E5;
+  --navbar-border: #E2E8F0;
+
+  --footer-bg: var(--indigo-900);
+  --footer-text: var(--indigo-50);
+  --footer-muted: var(--indigo-400);
+  --footer-border: var(--indigo-800);
+
+  --focus-ring: color-mix(in srgb, var(--primary) 25%, transparent);
+  --overlay-gradient: linear-gradient(
+    to top,
+    rgba(15, 18, 21, 0.85) 0%,
+    rgba(15, 18, 21, 0.25) 50%,
+    transparent 100%
+  );
+
+  color-scheme: light;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --background: #080B14;
+  --background-muted: #0F172A;
+  --background-subtle: #172033;
+
+  --surface: #111827;
+  --surface-hover: #1E293B;
+  --surface-active: #273449;
+
+  --primary: #818CF8;
+  --primary-hover: #A5B4FC;
+  --primary-active: #6366F1;
+  --primary-light: #312E81;
+
+  --secondary: #A78BFA;
+  --secondary-hover: #C4B5FD;
+  --secondary-light: #2E1065;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-disabled: #64748B;
+
+  --border: #1E293B;
+  --border-hover: #334155;
+  --border-focus: #818CF8;
+
+  --icon: #A5B4FC;
+  --icon-muted: #64748B;
+
+  --link: #818CF8;
+  --link-hover: #A5B4FC;
+
+  --navbar-bg: #111827;
+  --navbar-text: #F8FAFC;
+  --navbar-muted: #94A3B8;
+  --navbar-hover: #818CF8;
+  --navbar-border: #1E293B;
+
+  --footer-bg: var(--indigo-900);
+  --footer-text: var(--indigo-50);
+  --footer-muted: var(--indigo-400);
+  --footer-border: var(--indigo-800);
+
+  --focus-ring: color-mix(in srgb, var(--primary) 30%, transparent);
+  --overlay-gradient: linear-gradient(
+    to top,
+    rgba(15, 18, 21, 0.9) 0%,
+    rgba(15, 18, 21, 0.35) 50%,
+    transparent 100%
+  );
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lift: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+  color-scheme: dark;
+}
