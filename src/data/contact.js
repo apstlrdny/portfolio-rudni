@@ -37,7 +37,7 @@ export const socialLinks = [
     icon: FaGithub,
     iconSize: 20,
     label: 'GitHub',
-    href: 'https://github.com/rudni',
+    href: 'https://github.com/apstlrdny',
   },
   {
     icon: FaLinkedinIn,
