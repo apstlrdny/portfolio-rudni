@@ -57,16 +57,11 @@ export const ProjectCard = ({ project, delay = 0 }) => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
               transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-              style={{ display: 'flex' }}
             >
-              {project.images.map((img, i) => (
-                <img
-                  key={i}
-                  src={img}
-                  alt={`${project.title} ${i + 1}`}
-                  style={{ minWidth: '100%', objectFit: 'cover' }}
-                />
-              ))}
+              <img
+                src={project.images[currentSlide]}
+                alt={`${project.title} ${currentSlide + 1}`}
+              />
             </motion.div>
           </AnimatePresence>
 
