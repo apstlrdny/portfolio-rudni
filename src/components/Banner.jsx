@@ -74,7 +74,7 @@ export const Banner = () => {
                             Welcome to my Portfolio
                         </motion.span>
                         <motion.h1 variants={fadeInLeft}>
-                            Hi, I'm <span className="fw-bold">Rodny Ace M. Apostol</span>
+                            Hi, I'm <span className="fw-bold">Rodny Apostol</span>
                         </motion.h1>
                         <motion.h2 variants={fadeInLeft}>
                             {text}
