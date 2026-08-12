@@ -13,6 +13,7 @@ import {
   FaUsers,
   FaComments,
   FaPuzzlePiece,
+  FaFigma 
 } from 'react-icons/fa';
 
 import {
@@ -80,6 +81,7 @@ export const skillsData = [
       { name: 'GitHub', icon: SiGithub, level: 'Advanced' },
       { name: 'VS Code', icon: VscVscode, level: 'Advanced' },
       { name: 'Docker', icon: FaDocker, level: 'Intermediate' },
+      { name: 'Figma', icon: FaFigma, level: 'Intermediate' },
       { name: 'Discord', icon: SiDiscord, level: 'Intermediate' },
     ],
   },

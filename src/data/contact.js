@@ -6,6 +6,7 @@ import {
   FaPhoneAlt,
   FaGithub,
   FaLinkedinIn,
+  FaFacebookF 
 } from 'react-icons/fa';
 
 export const contactInfo = [
@@ -44,6 +45,12 @@ export const socialLinks = [
     iconSize: 20,
     label: 'LinkedIn',
     href: 'https://linkedin.com/in/rudni',
+  },
+  {
+    icon: FaFacebookF,
+    iconSize: 20,
+    label: 'Facebook',
+    href: 'https://www.facebook.com/apstlrdny',
   },
   {
     icon: FaEnvelope,
