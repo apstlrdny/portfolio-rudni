@@ -9,7 +9,7 @@ import {
 } from "../animations";
 import headerImg from '../assets/img/header-img.svg';
 
-const TO_ROTATE = ["Web Developer", "Software Engineer", "UI/UX Designer"];
+const TO_ROTATE = ["Full Stack Web Developer", "Software Engineer", "UI/UX Designer"];
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
